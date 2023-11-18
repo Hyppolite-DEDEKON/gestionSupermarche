@@ -14,37 +14,37 @@
   <!-- Nav Item - Dashboard -->
   <li class="nav-item">
     <a class="nav-link" href="{{ route('dashboard') }}">
-      <i class="fas fa-fw fa-house-alt"></i>
+      <i class="fas fa-home"></i>
       <span>Acceuil</span></a>
   </li>
   
   <li class="nav-item">
     <a class="nav-link" href="{{ route('products') }}">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <i class="fas fa-box-open"></i>
       <span>Produits</span></a>
   </li>
   
   <li class="nav-item">
     <a class="nav-link" href="{{ route('fournisseurs') }}">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <i class="fas fa-truck" ></i>
       <span>Fournisseurs</span></a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="#">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
+    <a class="nav-link" href="{{ route('agents') }}">
+      <i class="fas fa-vest" ></i>
       <span>Agents</span></a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="#">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
+    <a class="nav-link"  href="{{ route('ventes') }}">
+      <i class="fas fa-money-check-alt"></i>
       <span>Ventes</span></a>
   </li>
   
    <li class="nav-item">
     <a class="nav-link" href="/profile">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <i class="fas fa-user"></i>
       <span>Profile</span></a>
   </li>
   <!-- Divider -->

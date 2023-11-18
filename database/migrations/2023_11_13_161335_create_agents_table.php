@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('agents', function (Blueprint $table) {
             $table->id();
+            $table->string('nom_du_agent')->unique();
+            $table->string('telephone');
+            $table->string('adresse');
             $table->timestamps();
         });
     }

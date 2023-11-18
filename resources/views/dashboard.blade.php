@@ -1,10 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Dashboard')
 
 @section('contents')
   <div class="row">
-    <h2>Dashboard</h2>
+    <h2>Bienvenue {{ auth()->user()->name }}</h2>
 
     <!-- Add a container for the chart -->
     <canvas id="myChart" width="400" height="200"></canvas>
@@ -21,7 +20,7 @@
         var myChart = new Chart(ctx, {
             type: 'bar', // or 'line', 'pie', etc.
             data: {
-                labels: ['Label 1', 'Label 2', 'Label 3', 'Label 4', 'Label 5'],
+                labels: ['Tv', 'Iphone', 'Chocolat', 'Parfum', 'Livres'],
                 datasets: [{
                     label: 'Chart Name',
                     data: chartData,
